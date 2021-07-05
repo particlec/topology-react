@@ -8,11 +8,9 @@ function OperationDesk() {
         <Tabs.TabPane tab="系统组件" key="1">
           <SystemComponent />
         </Tabs.TabPane>
-        <Tabs.TabPane
-          tab="我的图片"
-          key="2"
-          style={{ margin: 0 }}
-        ></Tabs.TabPane>
+        <Tabs.TabPane tab="自定义图片" key="2" style={{ margin: 0 }}>
+          <CustomPicture />
+        </Tabs.TabPane>
       </Tabs>
     </div>
   );
