@@ -1,0 +1,29 @@
+yarn add prettier -D    //全局格式整理
+
+# 安装绘图引擎
+yarn add @topology/core
+
+# 安装图形库 - 流程图
+yarn add @topology/flow-diagram
+
+# 安装图形库 - 活动图
+yarn add @topology/activity-diagram
+
+# 安装图形库 - 类图
+yarn add  @topology/class-diagram
+
+# 安装图形库 - 时序图
+yarn add  @topology/sequence-diagram
+
+样式调整 自定义主题
+yarn add antd
+yarn add @craco/craco
+yarn add craco-less
+yarn add  less-loader
+
+yarn add @topology/core
+yarn add @topology/flow-diagram
+yarn add @topology/activity-diagram
+yarn add  @topology/class-diagram
+yarn add  @topology/sequence-diagram
+
