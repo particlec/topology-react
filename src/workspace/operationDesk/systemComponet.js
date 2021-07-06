@@ -13,11 +13,18 @@ function SystemComponent({}) {
             {item.children.map((item, ids) => {
               return (
                 <Col span={8}>
-                  <img
-                    style={{ height: 40, width: 40, margin: '20' }}
-                    src={item.data.image}
-                    alt="img"
-                  />
+                  <span
+                    key={ids}
+                    title={item.name}
+                    draggable
+                    onDragStart={ev => onDrag(ev, item)}
+                  >
+                    <img
+                      style={{ height: 40, width: 40, margin: '20' }}
+                      src={item.data.image}
+                      alt="img"
+                    />
+                  </span>
                 </Col>
               );
             })}

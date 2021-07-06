@@ -1,4 +1,5 @@
 import { Tabs } from 'antd';
+import CustomPicture from './customPicture';
 import SystemComponent from './systemComponet';
 
 function OperationDesk() {
