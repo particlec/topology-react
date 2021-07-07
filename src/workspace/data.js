@@ -109,20 +109,66 @@ export const Tools = [
   //   ],
   // },
   {
-    group: '系统组件',
+    group: '基本图案',
     children: [
       {
-        name: 'text',
-        icon: 'icon-text',
+        name: '正方形',
+        icon: 'icon-image',
         data: {
-          text: '我是标签',
+          text: 'Topology',
+          paddingBottom: 10,
+          paddingLeft: 10,
+          paddingRight: 10,
+          paddingTop: 10,
           rect: {
             width: 100,
-            height: 30,
+            height: 100,
           },
-          name: 'text',
+          name: 'image',
+          iconFamily: 'topology',
+          image: require('../assets/square.svg').default,
+          data: {
+            car: 1,
+          },
         },
       },
+      {
+        name: '钢笔(折线)',
+        icon: 't-icon t-pen',
+        class: '架构拓扑图',
+        data: {
+          name: 'lines',
+          type: 0, //  0- 连线； 1- 节点
+          doing: true,
+          closePath: true, // 是否闭合
+          rect: {
+            width: 0,
+            height: 0,
+          },
+        },
+        sort: 'a023',
+        state: 1,
+        base: true,
+        subClassId: '183bf0d2',
+        subClassName: '基本形状',
+      },
+    ],
+  },
+  {
+    group: 'react组件',
+    children: [
+      // {
+      //   name: 'text',
+      //   icon: 'icon-text',
+      //   data: {
+      //     text: '我是标签',
+      //     rect: {
+      //       width: 100,
+      //       height: 30,
+      //     },
+      //     name: 'text',
+      //   },
+      // },
     ],
   },
   {

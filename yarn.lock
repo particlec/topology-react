@@ -11308,6 +11308,18 @@ toidentifier@1.0.0:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
+topology-core@^0.2.17:
+  version "0.2.17"
+  resolved "https://registry.nlark.com/topology-core/download/topology-core-0.2.17.tgz#c80d0ede8a635501444991af70a9795571239ea6"
+  integrity sha1-yA0O3opjVQFESZGvcKl5VXEjnqY=
+  dependencies:
+    le5le-store "^1.0.7"
+
+topology-flow-diagram@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.nlark.com/topology-flow-diagram/download/topology-flow-diagram-0.0.3.tgz#fb74800e8c315fd7ff454d6859acaef188a44bdb"
+  integrity sha1-+3SADowxX9f/RU1oWayu8YikS9s=
+
 tough-cookie@^2.3.3, tough-cookie@~2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.5.0.tgz#cd9fb2a0aa1d5a12b473bd9fb96fa3dcff65ade2"
