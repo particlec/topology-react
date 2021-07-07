@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Topology } from '@topology/core';
 import data from './operationDesk/test.json';
 
-import { registerNode } from '@topology/core';
+import { registerNode } from 'topology-core/middles';
 import { register as registerFlow } from '@topology/flow-diagram';
 import { register as registerActivity } from '@topology/activity-diagram';
 import { register as registerClass } from '@topology/class-diagram';
