@@ -1,6 +1,7 @@
 import { HashRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { Button, Layout } from 'antd';
 import Canvas from '../workspace/canvas';
+import HeadTitle from '../workspace/header/headTitle';
 import OperationDesk from '../workspace/operationDesk';
 
 const { Header, Content, Sider } = Layout;
@@ -12,14 +13,14 @@ const WebRouter = () => {
         <Route path="/view">
           <Layout style={{ height: '100%' }}>
             <Header>
-              <xxx />
+              <HeadTitle />
             </Header>
             <Layout>
               <Sider>
                 <OperationDesk />
               </Sider>
               <Content>
-                <Button type="primary">123</Button>
+                {/*<Button type="primary">123</Button>*/}
                 <Canvas />
               </Content>
             </Layout>

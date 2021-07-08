@@ -15,7 +15,7 @@ module.exports = {
               // '@primary-color': '#1DA57A',
 
               '@layout-body-background': '#f0f2f5',
-              '@layout-header-background': '#1d2c49',
+              '@layout-header-background': '#6bb78b',
               '@layout-header-height': '64px',
               '@layout-header-padding': '0 50px',
               '@layout-header-color': '@text-color',

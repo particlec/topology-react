@@ -27,3 +27,7 @@ yarn add @topology/activity-diagram
 yarn add  @topology/class-diagram
 yarn add  @topology/sequence-diagram
 
+技术难点：
+// 怎么拖动按钮，在react上添加代码：
+// 不使用 浏览器进行http 通讯
+
